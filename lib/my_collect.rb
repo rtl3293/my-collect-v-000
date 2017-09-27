@@ -6,11 +6,8 @@ def my_collect(array)
     collection << yield(array[i])
     i+=0
   end
-  
+
   collection
 end
 
 
-languages = ['ruby', 'javascript', 'python', 'objective-c']
-
-my_collect(languages) {|language| language.upcase}
