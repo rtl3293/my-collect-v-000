@@ -8,3 +8,6 @@ def my_collect(array)
   end
   collection
 end
+
+
+languages = ['ruby', 'javascript', 'python', 'objective-c']
